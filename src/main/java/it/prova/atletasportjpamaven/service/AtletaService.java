@@ -28,4 +28,8 @@ public interface AtletaService {
 
 	public void setSportDAO(SportDAO sportDAO);
 
+	public List<Atleta> listaAtletiAppartenentiAUnoSport(String descrizioneSportDaScollegare);
+
+	public void rimuoviSport(Atleta atletaEsistente, Sport sportEsistenteSuDB);
+
 }
